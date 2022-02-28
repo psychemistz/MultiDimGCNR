@@ -13,7 +13,7 @@ In this article, we design and analyze a **generalized multi-dimensional distrib
 ## Model Performance Evaluation for Image Denoising Task (UNET & TC-MRDB-Net)
 - https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/TCB_200_epochs.ipynb
 
-## Class Separability Assessment for MNIST, ORL and CIFAR datasets
+## Class Separability Assessment for MNIST, ORL datasets
 - https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/GMDM_Separability_Notebook.ipynb
 
 ## Latent Separability Assessment for Antioxidant Protein Classification Task
