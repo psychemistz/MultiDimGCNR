@@ -9,7 +9,7 @@
 # (See http://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Train
-path = "C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/data/cifar-10-batches-bin/"
+path = "path-to-CIFAR10 dataset" #Modify this line to the download folder of CIFAR10 data set.
 labels <- read.table(paste0(path, "batches.meta.txt"))
 images.rgb <- list()
 images.lab <- list()

@@ -1,7 +1,7 @@
 read_orl_dset <- function(){
   require(dplyr)
   require(jpeg)
-  path = "C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/data/ORL_Dataset/"
+  path = "path_to_ORL_datset" ## Modify this line to the download folder of ORL dataset.
   flist = list.files(path, full.names = T)
   fname = list.files(path, full.names = F)
   fname = gsub(".jpg", "", fname)

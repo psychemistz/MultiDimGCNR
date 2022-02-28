@@ -45,7 +45,7 @@ test_list = lapply(1:n_classes, function(i) do.call(rbind, test_image_sorted[tes
 do.call(rbind, lapply(train_list, dim))
 do.call(rbind, lapply(test_list, dim))
 
-savepath = "C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/"
+savepath = "save_path" ## modify savepath
 saveRDS(list(train=train_list, test=test_list, train_lab = train_label_sorted, test_lab = test_label_sorted),
         paste0(savepath, "cifar100.RDS"))
 
