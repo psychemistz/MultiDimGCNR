@@ -10,7 +10,7 @@ In this article, we design and analyze a \emph{generalized multi-dimensional dis
 ## Assessment of Style Transfer effect of CycleGAN (Unsupervised, Unpaired Training)
 
 
-## Model Performance Evaluation for UNET & TC-MRDB-Net based Image Denoising Task
+## Model Performance Evaluation for Image Denoising Task (UNET & TC-MRDB-Net)
 
 
 ## Class Separability Assessment for MNIST, ORL and CIFAR datasets
