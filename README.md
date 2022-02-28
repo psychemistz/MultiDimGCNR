@@ -14,7 +14,7 @@ In this article, we design and analyze a **generalized multi-dimensional distrib
 
 
 ## Class Separability Assessment for MNIST, ORL and CIFAR datasets
-
+- https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/GMDM_Separability_Notebook.ipynb
 
 ## Latent Separability Assessment for Antioxidant Protein Classification Task
 - https://github.com/Shujaat123/AntiOxiLSE/blob/main/AntiOxiPred_LSE_Notebook.ipynb
