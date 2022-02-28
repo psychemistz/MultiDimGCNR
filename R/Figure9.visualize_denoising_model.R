@@ -1,6 +1,6 @@
 library(R.matlab)
-tcb = readMat("C:/Users/sypark/Dropbox (KAIST_20)/Project_w_SK/Multi_GCNR/0data/Noise/ChannelWise_GMDM_scores_TCB_Weather_noise_01_trial1.mat")
-unet = readMat("C:/Users/sypark/Dropbox (KAIST_20)/Project_w_SK/Multi_GCNR/0data/Noise/ChannelWise_GMDM_scores_UNET_Weather_noise_01_trial1.mat")
+tcb = readMat("./0processed_dsets/Weather_denoising/ChannelWise_GMDM_scores_TCB_Weather_noise_01_trial1.mat")
+unet = readMat("./0processed_dsets/Weather_denoising/ChannelWise_GMDM_scores_UNET_Weather_noise_01_trial1.mat")
 colnames(tcb$SF) = c("RED", "GREEN", "BLUE")
 colnames(tcb$SN) = c("RED", "GREEN", "BLUE")
 

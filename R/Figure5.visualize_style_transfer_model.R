@@ -1,12 +1,12 @@
 ## Figure 5
-epoch_500 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_500.mat")
-epoch_1000 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_1000.mat")
-epoch_1500 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_1500.mat")
-epoch_2000 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_2000.mat")
-epoch_2500 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_2500.mat")
-epoch_3000 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_3000.mat")
-epoch_3500 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_3500.mat")
-epoch_4000 = R.matlab::readMat("C:/Users/sypark/Desktop/Projects/w_Shujaat/0ovltools-GSSMD/7MultiDimGCNR/Test/epoch_4000.mat")
+epoch_500 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_500.mat")
+epoch_1000 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_1000.mat")
+epoch_1500 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_1500.mat")
+epoch_2000 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_2000.mat")
+epoch_2500 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_2500.mat")
+epoch_3000 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_3000.mat")
+epoch_3500 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_3500.mat")
+epoch_4000 = R.matlab::readMat("./0processed_dsets/Weather_style_transfer/epoch_4000.mat")
 
 OVL_mat = rbind(data.frame(epoch_500$res2, epoch=500),
                 data.frame(epoch_1000$res2, epoch=1000),
