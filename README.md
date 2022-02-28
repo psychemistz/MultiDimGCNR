@@ -8,10 +8,10 @@ In this article, we design and analyze a **generalized multi-dimensional distrib
 ---
 
 ## Assessment of Style Transfer effect of CycleGAN (Unsupervised, Unpaired Training)
-
+- https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/Cycle_GAN_Image2Image_styletranfer.ipynb
 
 ## Model Performance Evaluation for Image Denoising Task (UNET & TC-MRDB-Net)
-
+- https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/TCB_200_epochs.ipynb
 
 ## Class Separability Assessment for MNIST, ORL and CIFAR datasets
 - https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/GMDM_Separability_Notebook.ipynb
