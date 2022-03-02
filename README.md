@@ -12,6 +12,7 @@ In this article, we design and analyze a **generalized multi-dimensional distrib
 
 ## Model Performance Evaluation for Image Denoising Task (UNET & TC-MRDB-Net)
 - https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/NMB_TCB_Image_Denoising_Notebook.ipynb (TC-MRDB-Net)
+- https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/Denoising_super_res_UNET.ipynb (UNET)
 
 ## Class Separability Assessment for MNIST, ORL datasets
 - https://github.com/psychemistz/MultiDimGCNR/blob/main/colab_notebooks/GMDM_Separability_Notebook.ipynb
